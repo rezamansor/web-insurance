@@ -1,0 +1,53 @@
+.colabcompany {
+    list-style-type: none;   
+    float: left;
+    width: 20%;
+}
+
+.colabcompany > img {
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.present > img {
+    padding: 3rem;
+    display: inline;
+    width: 30rem;
+    height: 30rem;
+    padding-left: 5rem;
+}
+
+.present-part{
+    width: 35rem;
+    float: right;
+    padding-right: 5rem;
+}
+
+.present-part > p {
+    position: relative;
+    text-align: right;
+    font-size: large;
+}
+
+.present-part > h2 {
+    position: relative;
+    text-align: right;
+}
+
+@media screen and (max-width: 780px) {
+
+    .colabcompany{
+        display: flex;
+        float: none;
+        flex-direction: column;
+    }
+
+    .present > img {
+        padding: 3rem;
+        display: inline;
+        width: 15rem;
+        height: 15rem;
+        padding-left: 5rem;
+    }
+}

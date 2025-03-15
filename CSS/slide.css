@@ -1,0 +1,71 @@
+.part1 {
+    display: flex;
+}
+
+#slideshow {
+    padding-top : 3%;
+    overflow: hidden;
+    height: 250px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+
+.slide-wrapper {
+    width: calc(728px * 4);
+    animation: slide 10s ease infinite;
+}
+
+@keyframes slide {
+
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
+
+.shoar {
+    padding-top : 3%;
+    display: inline;
+}
+
+.shoar > h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    padding-right: 3rem;
+    margin-bottom: 2px;
+}
+
+.shoar > p {
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 2px;
+    padding-right: 5rem;
+}
+
+@media screen and (max-width: 780px) {
+
+    .part1 {
+        display: inline;
+    }
+
+    .shoar {
+        display: block;
+        text-align: center;
+    }
+}

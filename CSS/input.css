@@ -1,0 +1,84 @@
+.joinus {
+    width: 60rem;
+    display: flex;
+    justify-items: center;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.inp {
+    display: flex;   
+    justify-content: center;
+}
+
+.joinus > p {
+    text-align: right;
+    padding: 1rem;  
+    background-color: #191c34;
+    border-radius: 5px;
+    color: #FAFAFA;
+    margin-right: 1rem;
+}
+
+.joinus > form > label{
+    display: block;
+    text-align: right;
+    padding: 1rem 0rem;
+}
+
+.joinus > form > input {
+    padding-right: 12rem;
+    margin-left: 2rem;
+    background-color: #f1f5f9;
+    border-radius: 5px;
+}
+
+.artic-req {
+    /* height: 8rem; */
+    margin-bottom: 3rem;
+    padding: 4rem 0rem;
+}
+
+.joinus > form {
+    padding-right: 2rem;
+}
+
+.btn1, .btn2 {
+    margin-bottom: 1rem;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    border-radius: 5px;
+}
+
+.btn1 {
+    background-color: #191c34;
+    color: #fafafa;
+}
+
+.btn2 {
+    border: solid 1px #191c34;
+}
+
+@media screen and (max-width: 780px) {
+
+    .joinus {
+        width: 60rem;
+        display: block;
+        border-radius: 5px;
+    }
+
+    .choose-one {
+        margin-left: 1rem;
+    }
+
+    .btn1, .btn2 {
+        margin-left: 1rem;
+    }
+
+    .artic-req {
+        display: block;
+    }
+
+    .joinus > form {
+        padding-left: 1rem;
+    }
+}
